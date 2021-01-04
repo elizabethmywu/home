@@ -41,7 +41,6 @@ li {
 	border-right: 0.5px solid black;
 }
 
-
 .dropdown {
 	overflow: hidden;
 	display: inline-block;
@@ -80,7 +79,7 @@ a:hover {
 
 main {
 	justify-content: center;
-	margin: 2.5em 4em 5em;
+	margin: 2.5em 5em 5em;
 }
 
 h3 {

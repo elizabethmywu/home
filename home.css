@@ -41,6 +41,7 @@ li {
 	border-right: 0.5px solid black;
 }
 
+
 .dropdown {
 	overflow: hidden;
 	display: inline-block;
@@ -55,7 +56,7 @@ li {
 	background-color: aliceblue;
 	width: 30%;
 	box-shadow: 0 0.5em 1em 0 hsla(0,0%,25%,0.9);
-	top: 20.5em;
+
 }
 
 .dropdown-content a {
@@ -93,6 +94,8 @@ article.type {
 .images {
 	display: flex;
 	flex-wrap: wrap;
+	max-width: 865px;
+
 }
 
 img {

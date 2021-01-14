@@ -18,7 +18,7 @@ header {
 }
 
 h1 {
-	margin: 2.5em 0;
+	padding: 2.5em 0;
 }
 
 nav {
@@ -80,7 +80,7 @@ a:hover {
 
 main {
 	justify-content: center;
-	margin: 2.5em 0em;
+	padding: 2.5em 0em;
 }
 
 h3 {
@@ -95,7 +95,7 @@ article.type {
 	display: flex;
 	flex-wrap: wrap;
 	max-width: 865px;
-
+	min-width: 250px;
 }
 
 img {
@@ -143,7 +143,7 @@ footer {
 
 .center {
 	text-align: center;
-	margin-top: 0.5em;
+	margin-top: 0.25em;
 	margin-bottom: 1.5em;
 }
 

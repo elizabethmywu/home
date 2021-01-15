@@ -96,12 +96,10 @@ article.type {
 	flex-wrap: wrap;
 	max-width: 865px;
 	min-width: 250px;
-	max-height: 1000px;
 }
 
 img {
 	margin: 0em 0.25em;
-	width: 280px;
 }
 
 figure {

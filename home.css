@@ -96,6 +96,7 @@ article.type {
 	flex-wrap: wrap;
 	max-width: 865px;
 	min-width: 250px;
+	justify-content: center;
 }
 
 img {
@@ -123,22 +124,26 @@ figure:hover figcaption {
 	
 footer {
 	background-color:hsla(231,10%,13%,1.00);
-	padding: 2.5em;
-	position: relative;
+	padding: 2em 2.5em;
+}
+
+.credit,
+.update,
+.contact {
+	display: inline-flex;
+	justify-content: space-around;
+	align-items: center;
+	align-content: space-evenly;
+	margin: 0.5em 3.5em;
 }
 
 .update,
-.contact {
-	display: inline-block;
-	margin: 0em 2.5em;
-}
-
-.update {
+.credit {
 	color: hsla(0,0%,42%,1.00);
 }
 
 .contact {
-	float: right;
+	color: hsla(0,0%,95%,0.95); 
 }
 
 .center {

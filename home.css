@@ -96,6 +96,7 @@ article.type {
 	flex-wrap: wrap;
 	max-width: 865px;
 	min-width: 250px;
+	max-height: 1000px;
 }
 
 img {
